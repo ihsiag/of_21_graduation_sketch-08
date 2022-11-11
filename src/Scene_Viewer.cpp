@@ -88,7 +88,7 @@ void Scene_Viewer::initParam(){
 }
 
 void Scene_Viewer::initGKSet() {
-    gk.setup(&ssGlobalLog);
+    gk.setup(&ssGlobalLog,40);
     gk.setCam(&cam);
     gk.setGUI(gui, 13);
 }

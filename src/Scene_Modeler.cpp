@@ -107,7 +107,7 @@ void Scene_Modeler::initParam(){
 }
 
 void Scene_Modeler::initSet() {
-    gk.setup(&ssGlobalLog);
+    gk.setup(&ssGlobalLog,40);
     gk.setCam(&cam);
     gk.setGUI(guiOne,13);
     gk.setGUI(guiTwo,13);

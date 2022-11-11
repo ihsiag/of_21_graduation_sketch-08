@@ -76,7 +76,7 @@ public:
 		loadImgs("./description/");
 	}
 	void initSet() {
-		gk.setup(ssGlobalLog);
+		gk.setup(ssGlobalLog,40);
 	}
 	void resetCamera() {
 		cam.enableOrtho();
@@ -392,7 +392,7 @@ public:
 		infoBarAlpha = 0;
 	}
 	void initSet() {
-		//gk.setup(&ssGlobalLog);
+		gk.setup(40);
 	}
 	void initSliders() {};
 	void resetCamera() {};

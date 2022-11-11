@@ -121,7 +121,7 @@ void Scene_Room::initParam() {
 }
 
 void Scene_Room::initGKSet() {
-    gk.setup(&ssGlobalLog);
+    gk.setup(&ssGlobalLog,40);
     gk.setCam(&cam);
 
     gk.setGUI(guiOne, 12);
